@@ -1,0 +1,25 @@
+.translate1 {
+  transform: translate(0px,-30px);
+}
+
+.translate2 {
+  transform: translate(0px,-40px);
+}
+
+.translate3 {
+  transform: translate(20px, 20px)
+}
+
+.translate3:hover {
+  transform: translate(0px, 0px);
+  transition-duration: 1200ms;
+}
+.row {
+  --bs-gutter-x: 0rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(var(--bs-gutter-y) * -1);
+  margin-right: calc(var(--bs-gutter-x) * -.5);
+  margin-left: calc(var(--bs-gutter-x) * -.5);
+}
